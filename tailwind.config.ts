@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const colors = require('tailwindcss/colors')
 
 const config: Config = {
   content: [
@@ -12,6 +13,17 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      colors: {
+        transparent: 'transparent',
+        'primary': {
+          DEFAULT: colors.blue[500],
+        },
+        'secondary': {
+          DEFAULT: colors.orange[500],
+        },
+        'white': colors.neutral[50],
+        'black': colors.zinc[950],
       },
     },
   },
