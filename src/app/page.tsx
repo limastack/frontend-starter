@@ -1,10 +1,12 @@
+import { Typography } from "@/components/atoms/typography";
+
 export default function Home() {
   return (
     <main
-      className="flex min-h-screen flex-col items-center justify-between p-24 bg-slate-500"
+      className="flex min-h-screen flex-col items-start justify-start p-24 bg-slate-400"
       data-testid="main"
     >
-      <h1>Just start to 🚀</h1>
+
     </main>
   );
 }
