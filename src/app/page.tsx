@@ -1,4 +1,4 @@
-import { Typography } from "@/components/atoms/typography";
+import { Link } from "@/components/atoms/link";
 
 export default function Home() {
   return (

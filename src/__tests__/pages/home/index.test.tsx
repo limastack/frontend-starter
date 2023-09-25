@@ -9,10 +9,8 @@ describe('Home', () => {
   it('renders a initial heading', () => {
     render(<Home />)
 
-    const heading = screen.getByRole('heading', {
-      name: /Just start to 🚀/i,
-    })
+    const element = screen.getByRole('main')
 
-    expect(heading).toBeInTheDocument()
+    expect(element).toBeInTheDocument()
   })
 })
