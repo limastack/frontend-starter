@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "../atoms/link";
 import Navbar, { NavbarProps } from "../molecules/navbar";
 import { cn } from "@/lib/utils";
+import Hamburguer from "../atoms/hamburguer";
 
 export interface HeaderProps {
     className?: string;
@@ -24,6 +25,7 @@ const Header = (
             <Link href={brand.href} className="font-bold text-white tracking-wider">{brand.label}</Link>
         )}
         <Navbar links={navbar.links} button={navbar.button || undefined} />
+        <Hamburguer />
     </div>;
 }
 
