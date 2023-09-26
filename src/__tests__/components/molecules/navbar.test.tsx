@@ -1,7 +1,7 @@
+import "@testing-library/jest-dom/extend-expect";
 import Navbar from "@/components/molecules/navbar";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import "@testing-library/jest-dom/extend-expect";
 import { Button } from "@/components/atoms/button";
 
 const links = [
