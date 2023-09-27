@@ -17,7 +17,7 @@ const Navbar = (
     }: NavbarProps
 ) => {
     return (
-        <nav className={cn("hidden relative sm:flex items-center justify-between min-w-[calc(50%)] h-full leading-7 border-b", className)}>
+        <nav className={cn("hidden relative md:flex items-center justify-between min-w-[calc(50%)] h-full leading-7 border-b", className)}>
             <ul className="flex items-center mr-20">
                 {links.map((link, index) => (
                     <li key={index} >
